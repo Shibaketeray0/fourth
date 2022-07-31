@@ -939,6 +939,12 @@ width:15px;
   }
 }
 @media (max-width: 850px) {
+  .mentor{
+    img{
+      width: 144px;
+      height: 144px;
+    }
+  }
   .site_develop__inner .slick-list.draggable {
     display: block;
   }
