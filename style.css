@@ -700,6 +700,10 @@ body {
 
 /*Медіа запрсои*/
 @media (max-width: 1000px) {
+  .mentor img {
+    width: 144px;
+    height: 144px;
+  }
   .mentors__inner .mentors__slider .mentor {
     margin: 0;
     flex-direction: column;
@@ -780,10 +784,6 @@ body {
   }
 }
 @media (max-width: 850px) {
-  .mentor img {
-    width: 144px;
-    height: 144px;
-  }
   .site_develop__inner .slick-list.draggable {
     display: block;
   }

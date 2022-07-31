@@ -834,6 +834,12 @@ width:15px;
 
 /*Медіа запрсои*/
 @media(max-width: 1000px){
+  .mentor{
+    img{
+      width: 144px;
+      height: 144px;
+    }
+  }
   .mentors__inner .mentors__slider .mentor{
     margin: 0 ;
     flex-direction: column;
@@ -939,12 +945,7 @@ width:15px;
   }
 }
 @media (max-width: 850px) {
-  .mentor{
-    img{
-      width: 144px;
-      height: 144px;
-    }
-  }
+
   .site_develop__inner .slick-list.draggable {
     display: block;
   }
